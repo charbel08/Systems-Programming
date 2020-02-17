@@ -31,10 +31,6 @@ void freeNode(struct TreeNode *root){
 
 int main(int argc, char **argv) {
     // TODO: Update error checking and add support for the optional -d flag
-    // printf("Usage:\n\tptree [-d N] PID\n");
-
-    // NOTE: This only works if no -d option is provided and does not
-    // error check the provided argument or generate_ptree. Fix this!
     
     int depth = 0;
     
